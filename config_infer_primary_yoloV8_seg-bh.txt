@@ -2,10 +2,10 @@
 gpu-id=0
 net-scale-factor=0.0039215697906911373
 model-color-format=0
-onnx-file=ldkj-seg.onnx
-model-engine-file=ldkj-seg.onnx_b1_gpu0_fp32.engine
+onnx-file=ldkj-seg-bh.onnx
+model-engine-file=ldkj-seg-bh.onnx_b1_gpu0_fp32.engine
 #int8-calib-file=calib.table
-labelfile-path=labels.txt
+labelfile-path=labels-bh.txt
 batch-size=1
 network-mode=0
 num-detected-classes=80

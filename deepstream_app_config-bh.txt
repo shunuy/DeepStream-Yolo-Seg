@@ -74,7 +74,7 @@ enable=1
 gpu-id=0
 gie-unique-id=1
 nvbuf-memory-type=0
-config-file=config_infer_primary_yoloV8_seg.txt
+config-file=config_infer_primary_yoloV8_seg-bh.txt
 
 [tests]
 file-loop=0
