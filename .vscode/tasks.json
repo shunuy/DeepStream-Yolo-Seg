@@ -1,0 +1,36 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "make",
+            "args": [],
+            "options": {
+                "cwd": "${workspaceFolder}/nvdsinfer_custom_impl_Yolo_seg",
+				"env": {
+                    "CUDA_VER": "11.4"
+                }
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "make",
+            "args": ["clean"],
+            "options": {
+                "cwd": "${workspaceFolder}/nvdsinfer_custom_impl_Yolo_seg"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/nvidia/deepstream/deepstream/sources/includes",
+                "/usr/local/cuda-11.4/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/local/cuda-11.4/bin/nvcc",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

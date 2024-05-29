@@ -57,7 +57,7 @@ all: $(TARGET_LIB)
 	$(NVCC) -c -o $@ --compiler-options '-fPIC' $(CUFLAGS) $<
 
 $(TARGET_LIB) : $(TARGET_OBJS)
-	$(CC) -o $@  $(TARGET_OBJS) $(LFLAGS)
+	$(CC) -g -o $@  $(TARGET_OBJS) $(LFLAGS)
 
 clean:
 	rm -rf $(TARGET_LIB)
